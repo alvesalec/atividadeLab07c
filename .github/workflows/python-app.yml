@@ -16,8 +16,8 @@ jobs:
         python-version: "3.10"
     - name: Instalando dependencias
       run: |
-        pip install --upgrade pip
-        pip install -r requirements
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     - name: Teste
       run: |
         # Executar a cobertura antes dos testes
