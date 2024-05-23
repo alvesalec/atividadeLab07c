@@ -20,7 +20,7 @@ jobs:
     - name: Instalando dependencias
       run: |
         pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install -r requirements.txt
     - name: Teste
       run: |
         # Executar a cobertura antes dos testes
