@@ -31,7 +31,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: your-dockerhub-username/your-repo-name
+        repository: alecrinho/lab8
         tag_with_ref: true
           
           
